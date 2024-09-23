@@ -1,0 +1,378 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: rgb(239, 239, 226);
+}
+
+.foto-perfil {
+  width: 100%;
+  background-color: #000;
+  height: 100px;
+}
+
+main {
+  width: 900px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  box-shadow: 1px 4px 5px 2px #dcdcd9;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+main .CV-info-left {
+  background: #000;
+  color: white;
+  font-weight: 100;
+}
+main .CV-info-left img {
+  width: 100%;
+}
+main .CV-info-left .data {
+  padding: 20px;
+}
+main .CV-info-left .data .title {
+  margin-bottom: 5px;
+  font-weight: 100;
+}
+main .CV-info-left .data .title-strong {
+  font-weight: bold;
+}
+main .CV-info-left .data .title-ul {
+  padding-left: 20px;
+  font-weight: 100;
+  color: #e5d5d5;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+main .CV-info-left .data .title-ul li {
+  border-bottom: 20px;
+}
+main .CV-info-left .data .title-ul li:hover {
+  color: #fff;
+}
+main .CV-info-left .data .link-redes {
+  display: flex;
+}
+main .CV-info-left .data .link-redes svg {
+  width: 28px;
+  margin-right: 30px;
+}
+main .CV-info-left .data .link-redes a {
+  color: inherit;
+  text-decoration: none;
+}
+main .CV-info-left .data .link-redes .link-redes-a {
+  display: flex;
+  border-radius: 20px;
+  padding-left: 10px;
+  transition: 0.1s ease-out;
+  align-items: center;
+  fill: rgb(255, 255, 255);
+}
+main .CV-info-left .data .link-redes .link-redes-a:hover {
+  fill: red;
+  background-color: rgb(38, 38, 38);
+}
+main .CV-info-right {
+  background: #ffffff;
+  padding: 20px 40px;
+}
+main .CV-info-right .resalt {
+  transition: 0.3s ease-in;
+  border-radius: 20px;
+  padding: 10px;
+}
+main .CV-info-right .resalt:hover p {
+  padding-left: 20px;
+  font-weight: 500;
+  color: #000000;
+}
+main .CV-info-right h2 {
+  font-weight: 400;
+}
+main .CV-info-right p {
+  padding-left: 20px;
+  font-weight: 300;
+  color: #0d0c0c;
+}
+main .CV-info-right .right-title {
+  font-size: 62px;
+  margin: 30px 0;
+  font-family: "Bebas Neue", sans-serif;
+}
+main .CV-info-right .right-name {
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+main .CV-info-right .right-aboutme {
+  padding: 10px;
+  margin-bottom: 60px;
+}
+main .CV-info-right .right-aboutme h2 {
+  margin-bottom: 30px;
+}
+main .CV-info-right .right-aboutme p {
+  text-indent: 30px;
+}
+main .CV-info-right .right-experience-main h2 {
+  margin-bottom: 30px;
+}
+main .CV-info-right .right-experience-main .right-experience {
+  display: flex;
+}
+main .CV-info-right .right-experience-main .right-experience .right-experience-barra {
+  width: 100px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+main .CV-info-right .right-experience-main .right-experience .right-experience-barra svg {
+  width: 24px;
+}
+main .CV-info-right .right-experience-main .right-experience .right-experience-barra .barra {
+  margin: -4px 0;
+  width: 2px;
+  background-color: #000;
+}
+main .CV-info-right .right-experience-main .right-experience .right-experience-barra .barra1 {
+  height: 250px;
+}
+main .CV-info-right .right-experience-main .right-experience .right-experience-barra .barra2 {
+  height: 180px;
+}
+main .CV-info-right .right-experience-main .right-experience .right-experience-info {
+  padding-left: 30px;
+}
+main .CV-info-right .right-experience-main .right-experience .right-experience-info .right-experience-datos {
+  margin-bottom: 30px;
+}
+main .CV-info-right .right-experience-main .right-experience .right-experience-info .right-experience-datos ul {
+  padding-top: 10px;
+  padding-left: 40px;
+  font-weight: 300;
+}
+main .CV-info-right .right-hobbies svg {
+  width: 28px;
+}
+main .CV-info-right .right-hobbies .right-hobbies-list {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.extra {
+  padding: 10px 30px 0 30px;
+}
+.extra .extra-data {
+  text-indent: 30px;
+}
+.extra .extra-info {
+  width: 90px;
+  margin: 20px auto;
+  font-size: 8px;
+}
+
+@media screen and (min-width: 431px) {
+  .CV-info-movile {
+    display: none;
+  }
+  .link-redes {
+    display: flex;
+    flex-direction: column;
+  }
+  .link-redes-a {
+    height: 40px;
+    margin: 5px 0;
+    width: 200px;
+  }
+}
+@media screen and (max-width: 430px) {
+  main {
+    margin: 0;
+    width: 228px;
+  }
+  .movile-namefixed {
+    padding-top: 20px;
+    background: #000000;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .movile-namefixed h2 {
+    padding: 20px;
+  }
+  .CV-info-movile {
+    background: rgb(60, 60, 60);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    height: 92px;
+    align-items: center;
+  }
+  .CV-info-movile .botnes {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    transition: top 0.3s;
+  }
+  .CV-info-movile .botnes button {
+    border-radius: 20px 20px 0 0;
+    width: 50%;
+    font-size: 28px;
+    border: none;
+  }
+  .CV-info-movile .botnes .botn-skill {
+    background-color: #000;
+    color: #fff;
+  }
+  .CV-info-movile .botnes .botn-info {
+    background: linear-gradient(#848484, #303030);
+    color: #000000;
+  }
+  .movile-title {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    background-color: #000;
+  }
+  .data-movil {
+    background-color: #cdcdcd;
+    color: #000;
+    height: auto;
+  }
+  .data-movil h2 {
+    font-weight: 300;
+    margin-left: 20px;
+  }
+  .data-movil .right-aboutme {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .data-movil .right-aboutme p {
+    text-indent: 30px;
+  }
+  .data-movil .right-experience-main h2 {
+    margin-bottom: 20px;
+  }
+  .data-movil .right-experience-main .right-experience {
+    display: flex;
+  }
+  .data-movil .right-experience-main .right-experience-barra {
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+  }
+  .data-movil .right-experience-main .right-experience-barra svg {
+    width: 24px;
+  }
+  .data-movil .right-experience-main .right-experience-barra .barra {
+    margin: -4px 0;
+    width: 2px;
+    background-color: #000;
+  }
+  .data-movil .right-experience-main .right-experience-barra .barra1 {
+    height: 230px;
+  }
+  .data-movil .right-experience-main .right-experience-barra .barra2 {
+    height: 180px;
+  }
+  .data-movil .right-experience-main .right-experience-info {
+    padding-left: 30px;
+  }
+  .data-movil .right-experience-main .right-experience-info .right-experience-datos {
+    margin-bottom: 10px;
+  }
+  .data-movil .right-experience-main .right-experience-info .right-experience-datos p {
+    padding-left: 30px;
+    margin-bottom: 10px;
+  }
+  .data-movil .right-hobbies {
+    width: 100%;
+    padding-top: 20px;
+    margin-bottom: 60px;
+  }
+  .data-movil .right-hobbies svg {
+    width: 28px;
+    margin-right: 30px;
+  }
+  .data-movil .right-hobbies .right-hobbies-list {
+    margin-top: 10px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+  }
+  .CV-info-left {
+    width: 100vw;
+  }
+  .CV-info-left .data .link-redes {
+    display: flex;
+    position: relative;
+    left: -3px;
+    gap: 20px;
+  }
+  .CV-info-left .data .link-redes svg {
+    position: relative;
+    left: 10px;
+    opacity: 0.4;
+    height: 32px;
+  }
+  .CV-info-left .link-redes-a {
+    margin: 0;
+    padding-bottom: 10px;
+    width: 123px;
+    height: 68px;
+    border: 1px solid #484844;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  .CV-info-right {
+    display: none;
+  }
+  .title {
+    display: flex;
+    padding-top: 10px;
+  }
+  .invisible {
+    display: none;
+  }
+}/*# sourceMappingURL=main.css.map */
+
+.newbotonCV{
+  font-size: 43px;
+}
+.botonCV{
+  cursor: pointer;
+  color: #4e4e4e;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #2d2b2d;
+  font-weight: bold;
+  border: none;
+  color: white;
+  padding: 6px;
+  border: #2d2b2d 2px solid;
+  text-decoration: none;
+}
+.botonCV:hover{
+  color: rgb(38, 38, 38);
+  background: #dfdfdf;
+  border: #2d2b2d 2px solid;
+}
