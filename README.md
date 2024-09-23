@@ -1,4 +1,5 @@
 #README!!
+<a target="_blank" href="https://angelbcdev.github.io/micv/">view online</a>
 
 ##Pequeño proyecto
 
@@ -11,5 +12,5 @@ Metas para querer a programar
 - node.js
 - python
 
-##2023 es mi año
+##2022 es mi año
 # micv
