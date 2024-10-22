@@ -124,7 +124,11 @@ main .CV-info-right .right-experience-main h2 {
 main .CV-info-right .right-experience-main .right-experience {
   display: flex;
 }
-main .CV-info-right .right-experience-main .right-experience .right-experience-barra {
+main
+  .CV-info-right
+  .right-experience-main
+  .right-experience
+  .right-experience-barra {
   width: 100px;
   height: 100%;
   display: flex;
@@ -133,27 +137,62 @@ main .CV-info-right .right-experience-main .right-experience .right-experience-b
   align-items: center;
   margin-bottom: 30px;
 }
-main .CV-info-right .right-experience-main .right-experience .right-experience-barra svg {
+main
+  .CV-info-right
+  .right-experience-main
+  .right-experience
+  .right-experience-barra
+  svg {
   width: 24px;
 }
-main .CV-info-right .right-experience-main .right-experience .right-experience-barra .barra {
+main
+  .CV-info-right
+  .right-experience-main
+  .right-experience
+  .right-experience-barra
+  .barra {
   margin: -4px 0;
   width: 2px;
   background-color: #000;
 }
-main .CV-info-right .right-experience-main .right-experience .right-experience-barra .barra1 {
+main
+  .CV-info-right
+  .right-experience-main
+  .right-experience
+  .right-experience-barra
+  .barra1 {
   height: 250px;
 }
-main .CV-info-right .right-experience-main .right-experience .right-experience-barra .barra2 {
+main
+  .CV-info-right
+  .right-experience-main
+  .right-experience
+  .right-experience-barra
+  .barra2 {
   height: 180px;
 }
-main .CV-info-right .right-experience-main .right-experience .right-experience-info {
+main
+  .CV-info-right
+  .right-experience-main
+  .right-experience
+  .right-experience-info {
   padding-left: 30px;
 }
-main .CV-info-right .right-experience-main .right-experience .right-experience-info .right-experience-datos {
+main
+  .CV-info-right
+  .right-experience-main
+  .right-experience
+  .right-experience-info
+  .right-experience-datos {
   margin-bottom: 30px;
 }
-main .CV-info-right .right-experience-main .right-experience .right-experience-info .right-experience-datos ul {
+main
+  .CV-info-right
+  .right-experience-main
+  .right-experience
+  .right-experience-info
+  .right-experience-datos
+  ul {
   padding-top: 10px;
   padding-left: 40px;
   font-weight: 300;
@@ -235,7 +274,7 @@ main .CV-info-right .right-hobbies .right-hobbies-list {
     color: #fff;
   }
   .CV-info-movile .botnes .botn-info {
-    background: linear-gradient(#848484, #303030);
+    background: #cdcdcd;
     color: #000000;
   }
   .movile-title {
@@ -295,10 +334,17 @@ main .CV-info-right .right-hobbies .right-hobbies-list {
   .data-movil .right-experience-main .right-experience-info {
     padding-left: 30px;
   }
-  .data-movil .right-experience-main .right-experience-info .right-experience-datos {
+  .data-movil
+    .right-experience-main
+    .right-experience-info
+    .right-experience-datos {
     margin-bottom: 10px;
   }
-  .data-movil .right-experience-main .right-experience-info .right-experience-datos p {
+  .data-movil
+    .right-experience-main
+    .right-experience-info
+    .right-experience-datos
+    p {
     padding-left: 30px;
     margin-bottom: 10px;
   }
@@ -352,12 +398,12 @@ main .CV-info-right .right-hobbies .right-hobbies-list {
   .invisible {
     display: none;
   }
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
 
-.newbotonCV{
+.newbotonCV {
   font-size: 43px;
 }
-.botonCV{
+.botonCV {
   cursor: pointer;
   color: #4e4e4e;
   width: 120px;
@@ -371,8 +417,33 @@ main .CV-info-right .right-hobbies .right-hobbies-list {
   border: #2d2b2d 2px solid;
   text-decoration: none;
 }
-.botonCV:hover{
+.botonCV:hover {
   color: rgb(38, 38, 38);
   background: #dfdfdf;
   border: #2d2b2d 2px solid;
+}
+
+.about-area {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  position: relative;
+  bottom: 60px;
+  width: 360px;
+  margin-bottom: 20px;
+}
+
+.about-area a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  gap: 4px;
+  color: #4e4e4e;
+  text-decoration: none;
+  font-size: 18px;
+  border: #4e4e4e 1px solid;
+  border-radius: 16px;
+  padding: 8px;
 }
